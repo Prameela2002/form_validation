@@ -1,0 +1,38 @@
+caption{
+    font-size:45px;
+    color:black;
+    background-color:ghostwhite;
+}
+.main{
+    position:absolute;
+    background:linear-gradient(to top ,rgba(66, 69, 33, 0.7)50%,rgba(66, 69, 33, 0.7)50%);
+    top:30%;
+    bottom:30%;
+    left:35%;
+    width:350px;
+    height:300px;
+    border-radius: 20px;
+}
+tr th{
+    color:lightcyan;
+}
+tr{
+    margin-bottom:30px;
+}
+body{
+    background-image: url('login.jpg');
+}
+.btn{
+    color:lightseagreen;
+    background-color:wheat;
+    font-size: 25px;
+    margin-left: 25px;
+    border-radius: 15px;
+}
+.btn:hover{
+    background-color: greenyellow;
+    color: lightcyan;
+}
+.btn[type="reset"]{
+    margin-left: 120px;
+}
